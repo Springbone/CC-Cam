@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov  6 22:45:29 2019
+# Process ID: 12868
+# Current directory: F:/_SRTP/myIPs/ov2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14200 F:\_SRTP\myIPs\ov2\tmp_edit_project.xpr
+# Log file: F:/_SRTP/myIPs/ov2/vivado.log
+# Journal file: F:/_SRTP/myIPs/ov2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/_SRTP/myIPs/ov2/tmp_edit_project.xpr
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/_SRTP/myIPs/ov2/src/OV5640_Config.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/_SRTP/myIPs/ov2/src/OV7670_Config.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/_SRTP/myIPs/ov2/src/OV_CAM_CLK_Driver.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/_SRTP/myIPs/ov2/src/OV_CAM_Capture.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/_SRTP/myIPs/ov2/src/OV_CAM_Controller.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/_SRTP/myIPs/ov2/src/OV_CAM_SCCB.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/_SRTP/myIPs/ov2/src/OV_CAM.v:]
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/_SRTP/myIPs/ov2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 740.105 ; gain = 111.305
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {F:\_SRTP\myIPs\ov2\component.xml}
+WARNING: [IP_Flow 19-5226] Project source file 'f:/_SRTP/myIPs/ov2/component.xml' ignored by IP packager.
+set_property core_revision 43 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/_SRTP/myIPs/ov2
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/_SRTP/myIPs/ov2'
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {f:\_SRTP\myIPs\ov2\xilinx.com_user_OV_CAM_6.3.zip} [ipx::current_core]
+set_property core_revision 44 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/_SRTP/myIPs/ov2
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/_SRTP/myIPs/ov2'
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {f:\_SRTP\myIPs\ov2\xilinx.com_user_OV_CAM_6.4.zip} [ipx::current_core]
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  7 00:02:27 2019...

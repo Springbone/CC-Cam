@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct 30 17:38:05 2019
+# Process ID: 3680
+# Current directory: F:/_SRTP/myIPs/ov2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7564 F:\_SRTP\myIPs\ov2\tmp_edit_project.xpr
+# Log file: F:/_SRTP/myIPs/ov2/vivado.log
+# Journal file: F:/_SRTP/myIPs/ov2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/_SRTP/myIPs/ov2/tmp_edit_project.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {F:\_SRTP\myIPs\ov2\component.xml}
+set_property core_revision 40 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/_SRTP/myIPs/ov2
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {f:\_SRTP\myIPs\ov2\xilinx.com_user_OV_CAM_4.8.zip} [ipx::current_core]
