@@ -20,4 +20,4 @@
 5. PC上需要能够生成jupyter notebook环境来运行ipynb文件<br>
 6. pynq上的Python3.6需要进一步安装：<br>
 	1. pyserial<br>
-	2. ipywidgets<br># CC-Cam
+	2. ipywidgets<br>
