@@ -18,11 +18,11 @@ Imaging technologies fully utilizing the effect of scattering can realize imagin
 ![](./camera.png)
 
 ## Folder Structure
-*PL_design
+* PL_design
 	+ hls_sp: HLS design files of two IP cores, including gradient computation and float-fixed point transition
 	+ py2hls_test_tools: test scripts to compare the simulation resuts from the HLS design with the algorithm prototype written in Python  
 	+ vivado_sys: hardware design in Vivado, including HDMI display and the camera's driver
-*PS_design
+* PS_design
 	+ pynq_host: host files on PYNQ written in jupyter notebook  and some modifications on PYNQ's Linux system configuraion
 	+ lobot_arm_51：C51 codes for the driving board(not the PYNQ board)of the [LeArm](https://www.lobot-robot.com/p_detail/18.html) robot arm    
 
