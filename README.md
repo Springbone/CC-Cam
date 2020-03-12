@@ -3,7 +3,8 @@
 This repository contains the design of our computational imaging system *CC-Cam*.  
 With a scattering media in front of the imaging sensor, this lensless camera reconstructs the images of real scenes by scattering imaging technology. We use Xilinx PYNQ-Z2 to build a compact system with the integration of PSF calibration, raw image capture, reconstruction acceleration and user interaction.
    
-![](./brief_introduction.png)  
+![](./brief_introduction.png)
+ 
 ![](./camera.png)
 
 In the work pipeline, first the PSF (point spread function) should be obtained during the calibration of a point light source, then the FISTA algorithm is implemented on the scattered image captured by the sensor, and the reconstruction result is derived after the iterative computation.  
