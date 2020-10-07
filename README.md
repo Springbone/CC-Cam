@@ -29,7 +29,7 @@ Imaging technologies fully utilizing the effect of scattering can realize imagin
 	+ vivado_sys: hardware design in Vivado, including HDMI display and the camera's driver
 * PS_design
 	+ pynq_host: host files on PYNQ written in jupyter notebook  and some modifications on PYNQ's Linux system configuraion
-	+ lobot_arm_51：C51 codes for the driving board(not the PYNQ board)of the [LeArm](https://www.lobot-robot.com/p_detail/18.html) robot arm    
+	+ lobot_arm_51：C51 codes  (not given here) for the driving board(not the PYNQ board)of the [LeArm](https://www.lobot-robot.com/p_detail/18.html) robot arm   
 
 ## Environment for this project
 1. Vivado `2018.3`<br>
@@ -44,7 +44,6 @@ Imaging technologies fully utilizing the effect of scattering can realize imagin
 5. Additional Python3.6 packages to be installed on your PYNQ：<br>
 	- pyserial<br>
 	- ipywidgets<br>
-6. (Optional)Keil uVision 4(or 5) only for the C51 code of the robot arm <br>
 
 ---
 Some annotations are written in Chinese, which may cause unreadable code in your editors.
